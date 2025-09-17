@@ -1,0 +1,104 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 14, 124);
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url("bgcat1.jpg") no-repeat center center fixed;
+        background-size: cover;
+    color: white;
+}
+
+nav {
+    background-color: rgba(245, 220, 235, 0.632);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+} 
+
+nav {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 15px 15px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navbar img {
+  width: 90px;   
+  height: auto; 
+}
+
+nav div img {
+    width: 90px;
+}
+
+.navbar li {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: black;
+   font-weight: 600;
+   padding: 8px 0;
+   transition: all;
+   transition-duration: 300ms;
+   border-bottom: 1px solid rgba(0, 0, 0, 0)
+}
+
+nav ul li a:hover {
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+
+.head1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.head1 {
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.p    {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding-top: 60px;
+    font-family:Georgia, 'Times New Roman';
+}
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.cta:hover {
+    background: darkorange;
+}
