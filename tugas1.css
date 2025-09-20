@@ -20,13 +20,12 @@ nav {
     background-color: rgba(245, 220, 235, 0.632);
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1.5rem;
 } 
 
 nav {
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
-    border-radius: 0 0 15px 15px;
 }
 
 nav ul {
@@ -36,27 +35,21 @@ nav ul {
     list-style: none;
 }
 
-.navbar img {
-  width: 90px;   
-  height: auto; 
-}
-
 nav div img {
-    width: 90px;
+    width: 80px;
 }
 
 .navbar li {
   font-size: 20px;
-  display: inline-block;
-  margin: 0 20px;
+  margin: 0;
 }
 
 nav ul li a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, sans-serif;
     color: black;
-   font-weight: 600;
-   padding: 8px 0;
+    padding: 20px;
+   font-size: 20px;
    transition: all;
    transition-duration: 300ms;
    border-bottom: 1px solid rgba(0, 0, 0, 0)
@@ -102,3 +95,8 @@ nav ul li a:hover {
 .cta:hover {
     background: darkorange;
 }
+
+a {
+  font-size: 30px; /* ganti angkanya sesuai kebutuhan */
+}
+
